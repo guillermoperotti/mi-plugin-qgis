@@ -22,7 +22,7 @@ Los scripts permiten:
 qgis-scripts/
 ├── parte1_seleccionar_csv.py
 │   └─ Abre un cuadro de diálogo para elegir el CSV original
-├── parte2_convertir_csv.py
+├── **parte2_convertir_csv.py
 │   └─ Convierte delimitadores de tabulación a coma
 └── parte3y4_cargar_y_transformar.py
     └─ Carga en QGIS y aplica transformaciones (fechas + enteros)
