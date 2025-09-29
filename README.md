@@ -17,12 +17,16 @@ Los scripts permiten:
 
 ---
 
-## 📂 Estructura del repositorio
+## 📂 Estructura del repositorio:
 
 qgis-scripts/
-├── parte1_seleccionar_csv.py → Abre un cuadro de diálogo para elegir el CSV original
-├── parte2_convertir_csv.py → Convierte delimitadores de tabulación a coma
-├── parte3y4_cargar_y_transformar.py → Carga en QGIS y aplica transformaciones (fechas + enteros)
+├── parte1_seleccionar_csv.py
+│   └─ Abre un cuadro de diálogo para elegir el CSV original
+├── parte2_convertir_csv.py
+│   └─ Convierte delimitadores de tabulación a coma
+└── parte3y4_cargar_y_transformar.py
+    └─ Carga en QGIS y aplica transformaciones (fechas + enteros)
+
 
 
 ---
@@ -40,7 +44,7 @@ qgis-scripts/
    - Se genera automáticamente un CSV corregido (`consulta_exportable_corregido.csv`).
    - Se carga la capa en QGIS y se transforman los campos.
 
-
+---
 
 ## 🧩 Requisitos
 
@@ -52,7 +56,7 @@ qgis-scripts/
 
 👉 No se necesitan instalaciones adicionales.
 
-
+---
 
 ## 📖 Ejemplo de flujo
 
@@ -72,14 +76,14 @@ Expediente,Padron,Concepto,Diferenciador,...
 - Las fechas aparecen como `2025-06-02` en lugar de `02/06/2025`.
 - Los campos `Padron`, `Concepto`, `Diferenciador` y `Capacidad` son enteros (no texto).
 
-
+---
 
 ## 👨‍💻 Autor
 
 - **Guillermo Perotti**  
 - 📧 guillermoperottichape@gmail.com  
 
-
+---
 
 ## 🤝 Contribuir
 
